@@ -96,10 +96,12 @@ html {
 }
 
 .search-form__pseudo-checkbox {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #fff;
-  width: 20px;
-  height: 20px;
+  width: 19px;
+  height: 19px;
   position: relative;
   align-self: center;
   cursor: pointer;
@@ -112,11 +114,6 @@ html {
   width: 15px;
   height: 15px;
   background-color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: auto;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
